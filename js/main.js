@@ -73,7 +73,7 @@ let sum = 0;
 let e = sum / arr.length;
 
 
-    if(a && b && c && d == ""){
+    if(a == "" | b == "" | c == "" | d == ""){
         alert("Su promedio es " + Math.round(e))
     }
     else{alert("Por favor introduzca los 4 valores")}
